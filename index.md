@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 最近のpost
-search_omit: true
+# search_omit: true
 ---
 
 <ul class="post-list">
