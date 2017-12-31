@@ -3,10 +3,6 @@ layout: page
 title: Theme Setup
 excerpt: "Instructions on how to install and customize the Jekyll theme So Simple."
 modified: 2016-09-12T08:42:37-04:00
-image:
-  feature: so-simple-sample-image-6.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
 General notes and suggestions for customizing **So Simple Theme**.
@@ -209,7 +205,7 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 
 ### Link Post Type
 
-So Simple Theme supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.url }}/articles/sample-link-post) if you need a visual.
+So Simple Theme supports **link posts**, made famous by John Gruber. To activate just add `link: http://url-you-want-linked` to the post's YAML front matter and you're done. Here's an [example of a link post]({{ site.baseurl }}/articles/sample-link-post) if you need a visual.
 
 ### Author Override
 
@@ -286,7 +282,7 @@ Feature and thumbnail images are used by [Open Graph](https://developers.faceboo
 
 Here's an example of a tweet with Twitter Cards enabled.
 
-![Twitter Card summary large image screenshot]({{ site.url }}/images/twitter-card-summary-large-image.jpg)
+![Twitter Card summary large image screenshot]({{ site.baseurl }}/images/twitter-card-summary-large-image.jpg)
 
 
 ---
