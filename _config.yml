@@ -1,6 +1,6 @@
 # Site wide configuration
 title: サイトタイトル
-# logo: site-logo.png
+logo: site-logo.png
 search: true
 
 # Jekyll configuration
